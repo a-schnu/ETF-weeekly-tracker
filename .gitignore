@@ -1,0 +1,39 @@
+# Environment & credentials - CRITICAL
+.env
+.env.py
+.env.local
+*.env
+
+# Logs - contain runtime data and paths
+*.log
+logs/
+
+# Python runtime
+*.pyc
+__pycache__/
+*.py[cod]
+.Python
+
+# Virtual environment (if you add one later)
+venv/
+env/
+.venv/
+
+# Internal/dev files - not relevant for public repo
+CLAUDE.md
+docs/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Old tracker scripts (superseded by etf_tracker.py)
+world_energy.py
+vwce_tracker.log
+xdw0_tracker.log
